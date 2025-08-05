@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vitos Village House</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Vitos Village House</h1>
+        <nav>
+            <button onclick="switchLanguage('en')">English</button>
+            <button onclick="switchLanguage('gr')">Ελληνικά</button>
+        </nav>
+    </header>
+
+    <section id="description" class="lang lang-en">
+        <h2>Welcome to Vitos Village House</h2>
+        <p>Cozy 2-bedroom house located in Agios Matthaios, Corfu. Ideal for families and groups up to 4 guests.</p>
+    </section>
+    <section id="description" class="lang lang-gr">
+        <h2>Καλώς ήρθατε στο Vitos Village House</h2>
+        <p>Ζεστό σπίτι με 2 υπνοδωμάτια στον Άγιο Ματθαίο Κέρκυρας. Ιδανικό για οικογένειες και παρέες έως 4 άτομα.</p>
+    </section>
+
+    <section id="gallery">
+        <h2 class="lang lang-en">Photo Gallery</h2>
+        <h2 class="lang lang-gr">Φωτογραφίες</h2>
+        <div class="gallery">
+            <img src="images/kitchen.jpg" alt="Kitchen">
+            <img src="images/living_room.jpg" alt="Living Room">
+            <img src="images/bathroom.jpg" alt="Bathroom">
+            <img src="images/bedroom_double.jpg" alt="Double Bedroom">
+            <img src="images/bedroom_twins.jpg" alt="Twin Bedroom">
+            <img src="images/balcony.jpg" alt="Balcony View">
+        </div>
+    </section>
+
+    <footer>
+        <p>Contact us via WhatsApp or Booking.com</p>
+    </footer>
+</body>
+</html>
